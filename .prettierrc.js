@@ -18,7 +18,7 @@ module.exports = {
   // 9.object对象里面的key和value值和括号间的空格(bracketSpacing: <bool>)
   bracketSpacing: true,
   // 10.jsx标签多行属性写法时，尖括号是否另起一行(jsxBracketSameLine: <bool>)
-  jsxBracketSameLine: false,
+  bracketSameLine: false,
   // 11.箭头函数单个参数的情况是否省略括号，默认always是总是带括号（arrowParens: "<always|avoid>"）
   arrowParens: 'avoid',
   // 12.range是format执行的范围，可以选执行一个文件的一部分，默认的设置是整个文件（rangeStart: <int>  rangeEnd: <int>）

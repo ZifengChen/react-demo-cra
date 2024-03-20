@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+import './App1.css'
 
 function App() {
   const questionList = [
@@ -18,7 +18,7 @@ function App() {
         {questionList.map(question => {
           const { id, title, isPublished } = question
           return (
-            <div key={id}>
+            <div key={id} className="list-item">
               <strong>{title}</strong>
               &nbsp;
               {isPublished ? <span style={{ color: 'green' }}>已发布</span> : <span>未发布</span>}
